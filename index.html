@@ -3,72 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pharmacist Portfolio</title>
+    <title>Dr. Anila Munir - Pharmacist Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome for icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-brand-container">
-            <div class="nav-logo">A</div>
-            <div class="nav-brand">Dr. Anily</div>
-        </div>
-        <div class="nav-right">
-            <i class="fa-solid fa-magnifying-glass nav-search"></i>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="nav-inner">
+            <a class="brand" href="index.html" aria-label="Dr. Anila Munir - home">
+                <span class="brand-mark">A</span>
+                <span class="brand-name">Dr. Anila Munir</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
             <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html" class="active" aria-current="page">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="#">Project Page</a></li>
-                <li><a href="#">Lab Works</a></li>
-                <li><a href="#">Presentations</a></li>
-                <li><a href="#">Certifications</a></li>
-                <li><a href="#">References</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
             </ul>
         </div>
-    </nav>
-
-    <header class="header">
-        <h1>Home</h1>
     </header>
 
-    <main class="container">
-        <section class="hero">
-            <div class="intro-text">
-                <p class="highlight">As a pharmacist, I seek to harness my pharmaceutical expertise to address pressing public health challenges through evidence-based and population-oriented approaches.</p>
-                <p>My professional interests encompass rational medicine use, antimicrobial resistance, and equitable access to quality healthcare. I aspire to bridge pharmaceutical practice with public health research and policy, contributing to sustainable interventions that strengthen health systems and improve outcomes, particularly among underserved populations.</p>
-            </div>
-            <div class="hero-image">
-                <img src="profile.jpg" alt="Pharmacist Profile Image" onerror="this.src='https://via.placeholder.com/600x400?text=Please+add+profile.jpg'">
-            </div>
-        </section>
-
-        <section class="social-links">
-            <h2>My Social Media Handles!</h2>
-            <div class="icons">
-                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#" aria-label="Website"><i class="fa-solid fa-link"></i></a>
+    <main id="main">
+        <section class="home-hero">
+            <div class="container home-hero-grid">
+                <div>
+                    <p class="role">Clinical &amp; Community Pharmacist (Pharm.D)</p>
+                    <h1>Dr. Anila Munir</h1>
+                    <p class="lead">As a pharmacist, I seek to harness my pharmaceutical expertise to address pressing public health challenges through evidence-based and population-oriented approaches.</p>
+                    <p class="body">My professional interests encompass rational medicine use, antimicrobial resistance, and equitable access to quality healthcare. I aspire to bridge pharmaceutical practice with public health research and policy, contributing to sustainable interventions that strengthen health systems and improve outcomes, particularly among underserved populations.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="projects.html">View my projects <i class="fa-solid fa-arrow-right"></i></a>
+                        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+                    </div>
+                </div>
+                <div class="portrait"><img src="profile.jpg" alt="Portrait of Dr. Anila Munir, pharmacist"></div>
             </div>
         </section>
 
-        <section class="contact">
-            <p>Get in touch at <a href="mailto:anilamunir15@gmail.com">anilamunir15@gmail.com</a></p>
+        <section class="stats" aria-label="Portfolio at a glance">
+            <div class="container stats-grid">
+                <div class="stat"><strong>3</strong><span>Public health projects</span></div>
+                <div class="stat"><strong>500</strong><span>Students and community members educated</span></div>
+                <div class="stat"><strong>10</strong><span>Schools and villages reached</span></div>
+                <div class="stat"><strong>2024</strong><span>Pharm.D graduate, Shifa University</span></div>
+            </div>
         </section>
 
-        <div class="separator"></div>
+        <section class="section">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Explore my portfolio</h2>
+                    <p>Everything is one click away.</p>
+                </div>
+                <div class="quick-grid">
+                    <a class="quick" href="about.html"><i class="fa-solid fa-briefcase-medical"></i><strong>About</strong><span>Professional experience in hospital and community pharmacy</span></a>
+                    <a class="quick" href="education.html"><i class="fa-solid fa-graduation-cap"></i><strong>Education</strong><span>Pharm.D from Shifa Tameer-e-Millat University</span></a>
+                    <a class="quick" href="projects.html"><i class="fa-solid fa-folder-open"></i><strong>Projects</strong><span>Presentations and survey data for three projects</span></a>
+                    <a class="quick" href="#contact"><i class="fa-regular fa-envelope"></i><strong>Contact</strong><span>Send me an email</span></a>
+                </div>
+            </div>
+        </section>
 
-        <section class="skills">
-            <h2 class="section-title">Areas of Expertise</h2>
-            <ul class="expertise-list">
-                <li>Clinical Pharmacy & Therapeutics</li>
-                <li>Patient Counselling & Health Education</li>
-                <li>Medication Safety & Dispensing</li>
-                <li>Rational Medicine Use & Antibiotic Stewardship</li>
-                <li>Community Pharmacy & Public Health</li>
-            </ul>
+        <section class="section soft">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Featured projects</h2>
+                    <p>Community health work carried out in Chakwal District, Pakistan.</p>
+                </div>
+                <div class="project-list">
+            <a class="project-card" href="project-hygiene.html">
+                <img src="hygiene_session.jpeg" alt="Personal Hygiene and Infection Prevention in Schools">
+                <div class="project-body">
+                    <span class="project-tag">School health programme</span>
+                    <h3 class="project-name">Personal Hygiene &amp; Infection Prevention in Schools</h3>
+                    <p class="project-desc">Hygiene education for 300 students in five government and private schools in Chakwal District.</p>
+                    <span class="project-click">View project <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </a>
+            <a class="project-card" href="project-antibiotic.html">
+                <img src="antibiotic_outreach.jpeg" alt="Preserving Our Medicines: Safe Antibiotic Use">
+                <div class="project-body">
+                    <span class="project-tag">Community pharmacy project</span>
+                    <h3 class="project-name">Preserving Our Medicines: Safe Antibiotic Use</h3>
+                    <p class="project-desc">Antibiotic stewardship education for 200 people across five villages of Chakwal District.</p>
+                    <span class="project-click">View project <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </a>
+            <a class="project-card" href="project-triage.html">
+                <img src="triage_app_field.jpeg" alt="Community Health Triage and Digital Referral">
+                <div class="project-body">
+                    <span class="project-tag">Digital health project</span>
+                    <h3 class="project-name">Community Health Triage &amp; Digital Referral</h3>
+                    <p class="project-desc">A bilingual mobile app that guides rural families from symptoms to the right clinic.</p>
+                    <span class="project-click">View project <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Areas of expertise</h2>
+                </div>
+                <div class="expertise-grid">
+            <div class="expertise"><i class="fa-solid fa-pills"></i><strong>Clinical Pharmacy &amp; Therapeutics</strong></div>
+            <div class="expertise"><i class="fa-solid fa-comments"></i><strong>Patient Counselling &amp; Health Education</strong></div>
+            <div class="expertise"><i class="fa-solid fa-shield-halved"></i><strong>Medication Safety &amp; Dispensing</strong></div>
+            <div class="expertise"><i class="fa-solid fa-prescription-bottle-medical"></i><strong>Rational Medicine Use &amp; Antibiotic Stewardship</strong></div>
+            <div class="expertise"><i class="fa-solid fa-people-group"></i><strong>Community Pharmacy &amp; Public Health</strong></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-band" id="contact">
+            <div class="container">
+                <h2>Let's connect</h2>
+                <p>I welcome questions about my work, projects and studies.</p>
+                <a class="btn" href="mailto:anilamunir15@gmail.com"><i class="fa-regular fa-envelope"></i> anilamunir15@gmail.com</a>
+            </div>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div><strong>Dr. Anila Munir</strong><br>Clinical &amp; Community Pharmacist, Pakistan</div>
+            <div>
+                <a href="index.html">Home</a><a href="about.html">About</a><a href="education.html">Education</a><a href="projects.html">Projects</a>
+                <a href="mailto:anilamunir15@gmail.com"><i class="fa-regular fa-envelope"></i> anilamunir15@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

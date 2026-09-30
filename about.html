@@ -3,62 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Pharmacist Portfolio</title>
+    <title>About - Dr. Anila Munir</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome for icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-brand-container">
-            <div class="nav-logo">A</div>
-            <div class="nav-brand">Dr. Anily Muneer</div>
-        </div>
-        <div class="nav-right">
-            <i class="fa-solid fa-magnifying-glass nav-search"></i>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="nav-inner">
+            <a class="brand" href="index.html" aria-label="Dr. Anila Munir - home">
+                <span class="brand-mark">A</span>
+                <span class="brand-name">Dr. Anila Munir</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">About</a></li>
-                <li><a href="#">Project Page</a></li>
-                <li><a href="#">Lab Works</a></li>
-                <li><a href="#">Presentations</a></li>
-                <li><a href="#">Certifications</a></li>
-                <li><a href="#">References</a></li>
+                <li><a href="about.html" class="active" aria-current="page">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
             </ul>
         </div>
-    </nav>
+    </header>
 
-    <main class="container">
-        <section class="page-title-section">
-            <h1 class="page-title">About</h1>
-        </section>
-
-        <section class="experience-header">
-            <h2 class="experience-title">Professional Experiences</h2>
-        </section>
-
-        <section class="experiences-grid">
-            <div class="experience-card">
-                <h3 class="experience-role">Clinical Pharmacist across Various Tehsils of District Choa Saiden Shah</h3>
-                <ul class="experience-details">
-                    <li>Worked as a hospital pharmacist responsible for reviewing prescriptions, identifying potential <strong>drug-drug interactions, contraindications, and medication-related problems</strong>, and making appropriate therapeutic corrections in collaboration with the healthcare team.</li>
-                    <li>Ensured accurate <strong>dispensing, dose verification, medication reconciliation, and patient-specific counselling</strong> in both OPD and IPD settings, while promoting rational, safe, and effective pharmacotherapy.</li>
-                </ul>
+    <main id="main">
+        <section class="page-hero">
+            <div class="container">
+                <div class="crumbs"><a href="index.html">Home</a> <span>/</span> About</div>
+                <h1>About</h1>
+                <p>Professional experience in hospital and community pharmacy.</p>
             </div>
+        </section>
 
-
-            <div class="experience-card">
-                <img src="pharmacy_pic.jpg" alt="Pharmacy Experience" class="experience-img">
-                <h3 class="experience-role">Pharmacist at Bismillah Pharmacy</h3>
-                <ul class="experience-details">
-                    <li>During my one-year experience at <strong>Bismillah Pharmacy</strong>, I developed strong competencies in community pharmacy and public health.</li>
-                    <li>Provided safe medication dispensing, patient counselling, and guidance on rational medicine use, antibiotic stewardship, and treatment adherence.</li>
-                    <li>This experience strengthened my skills in health education, medication safety, and patient-centered care, enabling me to contribute effectively to improved community health outcomes.</li>
-                </ul>
+        <section class="section">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Professional experience</h2>
+                </div>
+                <div class="exp-list">
+                    <article class="exp-row">
+                        <div class="exp-side"><div class="exp-icon"><i class="fa-solid fa-hospital"></i></div></div>
+                        <div>
+                            <h3>Clinical Pharmacist across Various Tehsils of District Choa Saiden Shah</h3>
+                            <ul>
+                                <li>Worked as a hospital pharmacist responsible for reviewing prescriptions, identifying potential <strong>drug-drug interactions, contraindications, and medication-related problems</strong>, and making appropriate therapeutic corrections in collaboration with the healthcare team.</li>
+                                <li>Ensured accurate <strong>dispensing, dose verification, medication reconciliation, and patient-specific counselling</strong> in both OPD and IPD settings, while promoting rational, safe, and effective pharmacotherapy.</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="exp-row">
+                        <div class="exp-side"><img src="pharmacy_pic.jpg" alt="Dr. Anila Munir working at Bismillah Pharmacy"></div>
+                        <div>
+                            <h3>Pharmacist at Bismillah Pharmacy</h3>
+                            <ul>
+                                <li>During my one-year experience at <strong>Bismillah Pharmacy</strong>, I developed strong competencies in community pharmacy and public health.</li>
+                                <li>Provided safe medication dispensing, patient counselling, and guidance on rational medicine use, antibiotic stewardship, and treatment adherence.</li>
+                                <li>This experience strengthened my skills in health education, medication safety, and patient-centered care, enabling me to contribute effectively to improved community health outcomes.</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div><strong>Dr. Anila Munir</strong><br>Clinical &amp; Community Pharmacist, Pakistan</div>
+            <div>
+                <a href="index.html">Home</a><a href="about.html">About</a><a href="education.html">Education</a><a href="projects.html">Projects</a>
+                <a href="mailto:anilamunir15@gmail.com"><i class="fa-regular fa-envelope"></i> anilamunir15@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

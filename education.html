@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education - Dr. Anila Munir</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="nav-inner">
+            <a class="brand" href="index.html" aria-label="Dr. Anila Munir - home">
+                <span class="brand-mark">A</span>
+                <span class="brand-name">Dr. Anila Munir</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html" class="active" aria-current="page">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="page-hero">
+            <div class="container">
+                <div class="crumbs"><a href="index.html">Home</a> <span>/</span> Education</div>
+                <h1>Education</h1>
+                <p>Academic background at Shifa Tameer-e-Millat University, Islamabad.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container edu-intro">
+                <div class="edu-summary">
+                    <p class="lead">A graduate of Shifa Tameer-e-Millat University, Islamabad, trained to deliver safe, evidence-based and patient-centred pharmaceutical care.</p>
+                    <p>My pharmacy education combined a rigorous grounding in pharmaceutical sciences, pharmacology and pharmacotherapeutics with hands-on laboratory training and supervised practice in hospital and community settings. It gave me the clinical reasoning to review prescriptions, anticipate drug-related problems and counsel patients with confidence.</p>
+                    <p>Beyond the curriculum, my time at Shifa shaped my commitment to <strong>rational medicine use, antimicrobial stewardship and equitable access to healthcare</strong>, the themes that continue to guide my career in clinical and public health pharmacy.</p>
+                </div>
+                <aside class="edu-credential">
+                    <h3>Doctor of Pharmacy (Pharm.D)</h3>
+                    <p class="edu-school">Shifa College of Pharmaceutical Sciences</p>
+                    <ul class="edu-facts">
+                        <li><i class="fa-solid fa-building-columns"></i><div><strong>Shifa Tameer-e-Millat University</strong>Islamabad, Pakistan</div></li>
+                        <li><i class="fa-solid fa-graduation-cap"></i><div><strong>10th Convocation</strong>2 March 2024</div></li>
+                        <li><i class="fa-solid fa-flask"></i><div><strong>Focus areas</strong>Clinical pharmacy, pharmacotherapeutics, patient counselling</div></li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section soft" aria-labelledby="gallery-title">
+            <div class="container">
+                <div class="section-head">
+                    <h2 id="gallery-title">Graduation day</h2>
+                    <p>10th Convocation, Shifa Tameer-e-Millat University, 2 March 2024. Select a photo to enlarge it.</p>
+                </div>
+                <div class="gallery-row">
+                    <figure style="--r:1.5">
+                        <button type="button" data-caption="Convocation group photo with faculty"><img src="graduation_formal.jpeg" alt="Official convocation group photograph with faculty"></button>
+                        <figcaption>Convocation group photo with faculty</figcaption>
+                    </figure>
+                    <figure style="--r:1.5">
+                        <button type="button" data-caption="My graduating class"><img src="graduation_group.jpeg" alt="Graduating pharmacy class in caps and gowns"></button>
+                        <figcaption>My graduating class</figcaption>
+                    </figure>
+                </div>
+                <div class="gallery-row narrow">
+                    <figure style="--r:1.333">
+                        <button type="button" data-caption="With classmates in lab coats"><img src="graduation_classmates.jpeg" alt="Pharmacy classmates in white lab coats"></button>
+                        <figcaption>With classmates in lab coats</figcaption>
+                    </figure>
+                    <figure style="--r:0.5625">
+                        <button type="button" data-caption="The convocation ceremony"><img src="graduation_ceremony.jpeg" alt="Graduates standing in the convocation auditorium"></button>
+                        <figcaption>The convocation ceremony</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+        <figure><img src="" alt=""><figcaption></figcaption></figure>
+        <button class="lb-btn lb-close" type="button" aria-label="Close">&times;</button>
+        <button class="lb-btn lb-prev" type="button" aria-label="Previous photo">&#10094;</button>
+        <button class="lb-btn lb-next" type="button" aria-label="Next photo">&#10095;</button>
+    </dialog>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div><strong>Dr. Anila Munir</strong><br>Clinical &amp; Community Pharmacist, Pakistan</div>
+            <div>
+                <a href="index.html">Home</a><a href="about.html">About</a><a href="education.html">Education</a><a href="projects.html">Projects</a>
+                <a href="mailto:anilamunir15@gmail.com"><i class="fa-regular fa-envelope"></i> anilamunir15@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

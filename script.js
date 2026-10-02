@@ -57,11 +57,11 @@
     }));
 })();
 
-// Photo lightbox (Education page)
+// Photo lightbox (Education and Certificates pages)
 (function () {
     const box = document.getElementById('lightbox');
     if (!box) return;
-    const tiles = [...document.querySelectorAll('.gallery-row button')];
+    const tiles = [...document.querySelectorAll('.gallery-row button, button.cert-thumb')];
     const img = box.querySelector('img');
     const cap = box.querySelector('figcaption');
     let cur = 0;

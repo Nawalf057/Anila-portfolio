@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates - Dr. Anila Munir</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Source+Serif+4:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="nav-inner">
+            <a class="brand" href="index.html" aria-label="Dr. Anila Munir - home">
+                <span class="brand-mark">A</span>
+                <span class="brand-name">Dr. Anila Munir</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="certificates.html" class="active" aria-current="page">Certificates</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="page-hero">
+            <div class="container">
+                <div class="crumbs"><a href="index.html">Home</a> <span>/</span> Certificates</div>
+                <h1>Certificates</h1>
+                <p>Professional certifications, training and achievements.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Certificates &amp; achievements</h2>
+                    <p>Select a certificate to enlarge it.</p>
+                </div>
+                <div class="cert-grid">
+                    <article class="cert-card">
+                        <div class="cert-thumb" aria-hidden="true"><i class="fa-solid fa-award"></i></div>
+                        <div class="cert-body">
+                            <span class="project-tag">Year</span>
+                            <h3>Certificate title goes here</h3>
+                            <p>Issuing organisation</p>
+                        </div>
+                    </article>
+                    <article class="cert-card">
+                        <div class="cert-thumb" aria-hidden="true"><i class="fa-solid fa-certificate"></i></div>
+                        <div class="cert-body">
+                            <span class="project-tag">Year</span>
+                            <h3>Certificate title goes here</h3>
+                            <p>Issuing organisation</p>
+                        </div>
+                    </article>
+                    <article class="cert-card">
+                        <div class="cert-thumb" aria-hidden="true"><i class="fa-solid fa-file-medical"></i></div>
+                        <div class="cert-body">
+                            <span class="project-tag">Year</span>
+                            <h3>Certificate title goes here</h3>
+                            <p>Issuing organisation</p>
+                        </div>
+                    </article>
+                </div>
+                <!--
+                    TO ADD A REAL CERTIFICATE: copy the block below, replace the file name, title,
+                    issuer and year, then delete one of the placeholder cards above.
+
+                    <article class="cert-card">
+                        <button type="button" class="cert-thumb" data-caption="Certificate title">
+                            <img src="your_certificate.jpg" alt="Certificate title from Issuer">
+                        </button>
+                        <div class="cert-body">
+                            <span class="project-tag">2024</span>
+                            <h3>Certificate title</h3>
+                            <p>Issuing organisation</p>
+                        </div>
+                    </article>
+                -->
+            </div>
+        </section>
+    </main>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+        <figure><img src="" alt=""><figcaption></figcaption></figure>
+        <button class="lb-btn lb-close" type="button" aria-label="Close">&times;</button>
+        <button class="lb-btn lb-prev" type="button" aria-label="Previous photo">&#10094;</button>
+        <button class="lb-btn lb-next" type="button" aria-label="Next photo">&#10095;</button>
+    </dialog>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div><strong>Dr. Anila Munir</strong><br>Clinical &amp; Community Pharmacist, Pakistan</div>
+            <div>
+                <a href="index.html">Home</a><a href="about.html">About</a><a href="education.html">Education</a><a href="certificates.html">Certificates</a><a href="projects.html">Projects</a>
+                <a href="mailto:anilamunir15@gmail.com"><i class="fa-regular fa-envelope"></i> anilamunir15@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

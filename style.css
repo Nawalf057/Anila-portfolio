@@ -333,3 +333,11 @@ button.cert-thumb { cursor: zoom-in; }
 .footer-inner > div { min-width: 0; max-width: 100%; }
 .footer-inner > div:last-child { display: flex; flex-wrap: wrap; gap: 8px 0; }
 .footer-inner > div:last-child a { overflow-wrap: anywhere; }
+
+.exp-row.exp-single { grid-template-columns: 1fr; }
+.cert-link { display: inline-flex; align-items: center; gap: 10px; margin-top: 14px; padding: 12px 22px; background: var(--navy); color: #fff; border: 1px solid var(--navy); border-bottom: 3px solid var(--gold); border-radius: var(--radius); font-weight: 600; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; box-shadow: 0 2px 8px rgba(14,34,56,0.18); transition: background 0.2s, transform 0.2s, box-shadow 0.2s; }
+.cert-link .fa-award { color: var(--gold); font-size: 16px; }
+.cert-link:hover { background: var(--accent); border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 6px 16px rgba(14,34,56,0.25); }
+.cert-link .fa-arrow-right { transition: transform 0.2s; }
+.cert-link:hover .fa-arrow-right { transform: translateX(5px); }
+.cert-card:target { box-shadow: 0 0 0 3px var(--gold); }
